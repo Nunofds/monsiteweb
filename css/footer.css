@@ -41,11 +41,14 @@ footer {
     justify-content: space-around;
 }
 .social a {
-    pad: 5px;
-    transition: 1s ease;
+    padding: 5px;
+    transition: 0.5s;
 }
 .social a:hover {
-    background: rgb(212, 206, 206);
+    background: rgba(212, 206, 206, 0.5);
+}
+.social a img {
+    width: 40px;
 }
 /* chevron aller vers le haut */
 footer .versLeHaut {
