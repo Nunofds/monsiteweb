@@ -1,0 +1,64 @@
+/* ***** footer ***** */
+footer {
+    width: 100%;
+    margin-top: 90px;
+    bottom: 0;
+    padding-bottom: 30px;
+    background: rgba(10, 10, 10, 0.8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* titre  */
+.footerHeading {
+    /* background: rgba(10, 10, 10, 0.6); */
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+.footerHeading hr {
+    width: 150px;
+    height: 1px;
+    color: rgba(255, 255, 255);
+    margin: 0 auto;
+}
+
+/*  */
+.phone-email {
+    height: 100%;
+    padding: 30 px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ddd;
+}
+.phone-email div {
+    padding: 30px;
+}
+
+/*  */
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+.social a {
+    pad: 5px;
+    transition: 1s ease;
+}
+.social a:hover {
+    background: rgb(212, 206, 206);
+}
+/* chevron aller vers le haut */
+footer .versLeHaut {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: rgb(212, 165, 95, 0.5);
+}
+footer .versLeHaut:hover {
+    background: rgb(243, 172, 66);
+    transition: 0.5s;
+}
+footer .versLeHaut i {
+    color: #fff !important;
+    font-size: 23px;
+}

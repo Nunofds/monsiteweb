@@ -1,0 +1,27 @@
+/* ***** section formation ***** */
+#formation .formationWf3,
+#formation .formationPython,
+#formation .formationDev {
+    padding: 60px 0;
+}
+
+#formation .formationWf3 {
+    padding-top: 0;
+}
+/* boutons télécharger certificats */
+#formation button {
+    box-shadow: 1px 1px 5px #000;
+}
+#formation button a {
+    text-decoration: none;
+    color: rgb(56, 37, 38);
+}
+#formation p {
+    margin: 0;
+}
+/* bouton télécharger CV */
+#formation .boutonCV {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}

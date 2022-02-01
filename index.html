@@ -1,27 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
             name="description"
-            content="Bonjour, bienvenue sur mon site web. Je suis à votre disposition pour répondre à tout type de projets de création de sites internet."
+            content="Bonjour, bienvenue sur mon portfolio. Je suis Nuno Fernandes votre future développeur web !"
         />
-        <title>NunoFernandes | MonSiteWeb</title>
-        <!-- CSS LINK -->
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="./css/competences.css" />
-        <!-- GOOGLE FONTS - LATO -->
+        <!-- Bootstrap css link -->
         <link
-            href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
-        />
-        <!-- BOOTSTRAP CSS LINK -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
             crossorigin="anonymous"
         />
         <!-- Bootstrap cdn for icons -->
@@ -29,116 +20,81 @@
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
         />
+        <!-- css link -->
+        <link rel="stylesheet" href="./css/header.css" />
+        <link rel="stylesheet" href="./css/portfolio.css" />
+        <link rel="stylesheet" href="./css/footer.css" />
+        <link rel="stylesheet" href="./css/competences.css" />
+        <link rel="stylesheet" href="./css/formation.css" />
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- title -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>NunoFernandes | Portfolio</title>
     </head>
     <body>
-        <!-- ***** HEADER ***** -->
-        <header id="header" class="container-fluid">
-            <!-- *** NAVBAR SECTION *** -->
-            <section class="navSection">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                            <!-- logo -->
-                            <a class="navbar-brand" href="">
-                                <img
-                                    src="./img/logo-removebg-preview.png"
-                                    alt="logotype"
-                                    title="logotype"
-                            /></a>
-                            <!-- bouton toggler  -->
-                            <button
-                                class="navbar-toggler"
-                                type="button"
-                                data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent"
-                                aria-controls="navbarSupportedContent"
-                                aria-expanded="false"
-                                aria-label="Toggle navigation"
-                            >
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <!-- liste navigation -->
-                            <div
-                                class="collapse navbar-collapse"
-                                id="navbarSupportedContent"
-                            >
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a
-                                            class="nav-link p-3"
-                                            aria-current="page"
-                                            href="#header"
-                                            >Accueil</a
-                                        >
-                                    </li>
-                                    <li class="nav-item">
-                                        <a
-                                            class="nav-link p-3"
-                                            href="#competences"
-                                            >Compétences</a
-                                        >
-                                    </li>
-                                    <li class="nav-item">
-                                        <a
-                                            class="nav-link p-3"
-                                            href="#realisations"
-                                            >Portfolio</a
-                                        >
-                                    </li>
-                                    <li class="nav-item">
-                                        <a
-                                            class="nav-link p-3"
-                                            href="#education"
-                                            >Education</a
-                                        >
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link p-3" href="#contact"
-                                            >Contact</a
-                                        >
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </section>
-            <!-- *** SOCIAL *** -->
-            <section class="social">
-                <a
-                    href="https://www.linkedin.com/in/nuno-fernandes-69a6a4133/"
-                    target="_blank"
-                    ><img
-                        src="./img//icons/linkedin.png"
-                        alt="lien vers linkedin"
-                /></a>
-                <a href="#"
-                    ><img src="./img/icons/github.png" alt="lien vers github"
-                /></a>
-            </section>
-            <!-- *** PRESENTATION SECTION *** -->
-            <section class="container-fluid presentation">
-                <div class="row">
-                    <div>
-                        <h1>Nuno Fernandes</h1>
-                        <p>Développeur Web et mobile junior</p>
-                        <p>
-                            Je suis à votre disposition pour répondre à tout
-                            type de projets de création de sites internet.
-                        </p>
+        <!-- header -->
+        <header id="accueil">
+            <section class="container">
+                <!-- navbar -->
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="#accueil"><img src="./img/logo.png" alt="Image du logo" style="width: 32px; height: 32px;"></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="#accueil"
+                                    >Accueil</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#competences">Compétences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#formation">Formation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+
                     </div>
+                </nav>
+                <!-- h1 -->
+                <div class="mon-titre">
+                    <h1>Nuno Fernandes</h1>
+                    <p>Je suis à votre disposition pour répondre à tout type de projet de création de site internet.</p>
                 </div>
             </section>
         </header>
 
-        <!-- ***** MAIN ***** -->
+        <!-- main -->
         <main>
             <!-- Mes compétences -->
             <section id="competences">
                 <div class="container">
-                    <div class="heading">
-                        <hr />
-                        <h2>Mes compétences</h2>
+                    <div class="heading text-center p-5">
+                        <hr>
+                        <h2 class="p-3">Mes compétences</h2>
                     </div>
                 </div>
                 <!-- langages -->
@@ -479,205 +435,148 @@
                     </div>
                 </div>
             </section>
-            <!-- Mes Réalisations -->
-            <section id="realisations">
+            <!-- portfolio -->
+            <section id="portfolio">
                 <div class="container">
-                    <div class="heading">
-                        <hr />
-                        <h2>Mes réalisations</h2>
+                    <div class="heading text-center p-5">
+                        <hr>
+                        <h2 class="p-3">Portfolio</h2>
                     </div>
-                    <!--  -->
-                    <div class="row">
-                        <!-- 1 Travel Agency -->
-                        <div class="col-md-4 box">
-                            <div class="card">
-                                <img
-                                    src="./img/realisations/travelAgency.PNG"
-                                    class="card-img-top"
-                                    alt="image du site web réaliser"
-                                />
-                                <div class="card-body">
-                                    <h5 class="card-title">Travel Agency</h5>
-                                    <p class="card-text">
-                                        Site d'une agence de voyages. Réaliser
-                                        en HTML5/CSS lors de ma formation.
-                                    </p>
-                                    <a
-                                        href="https://nunofds.github.io/voyages/"
-                                        target="_blank"
-                                        class="btn btn-warning"
-                                        >Voir le site
-                                        <span class="bi-arrow-bar-right"></span
-                                    ></a>
-                                </div>
+                    <!-- row1 -->
+                    <div class="row justify-content-around py-3">
+                        <!-- item1 row1 Travel Agency -->
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                            <div class="carte">
+                                <a class="cacher" href="https://nunofds.github.io/voyages/" target="_blank"><i class="bi-plus"></i></a>
+                                <img class="img-fluid" src="./img/realisations/travelAgency.PNG" alt="image illustration du site">
+                                <p class="texte"><strong>Travel Agency</strong><span> - réaliser en HTML5/CSS3</span></p>
                             </div>
                         </div>
-                        <!-- 2 Snake Game -->
-                        <div class="col-md-4 box">
-                            <div class="card">
-                                <img
-                                    src="./img/realisations/snakeGame.PNG"
-                                    class="card-img-top"
-                                    alt="image du site web réaliser"
-                                />
-                                <div class="card-body">
-                                    <h5 class="card-title">Snake Game</h5>
-                                    <p class="card-text">
-                                        Petit jeu du serpent. Réaliser en
-                                        javascript.
-                                        <i>(nouvelle version prochainement)</i>
-                                    </p>
-                                    <a
-                                        href="https://nunofds.github.io/portfolio/Jeu%20Snake/Index.html"
-                                        target="_blank"
-                                        class="btn btn-warning"
-                                        >Voir le jeu
-                                        <span class="bi-arrow-bar-right"></span
-                                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- 3 Top 5 actrices -->
-                        <div class="col-md-4 box">
-                            <div class="card">
-                                <img
-                                    src="./img/realisations/5actrices.PNG"
-                                    class="card-img-top"
-                                    alt="image du site web réaliser"
-                                />
-                                <div class="card-body">
-                                    <h5 class="card-title">Top 5 actrices</h5>
-                                    <p class="card-text">
-                                        Site réaliser en jQuery lors de ma
-                                        formation.
-                                    </p>
-                                    <a
-                                        href="https://nunofds.github.io/sitewebActrices/"
-                                        target="_blank"
-                                        class="btn btn-warning"
-                                        >Voir le site
-                                        <span class="bi-arrow-bar-right"></span
-                                    ></a>
-                                </div>
+                        <!-- item1 row1 Heros -->
+                        <div class="col-lg-4 col-sm-6 mb-4"> 
+                            <div class="carte">
+                                <a class="cacher" href="./heros/index.html" target="_blank"><i class="bi-plus"></i></a>
+                                <img class="img-fluid" src="./img/realisations/siteHeros.PNG" alt="image illustration du site">
+                                <p class="texte"><strong>Heros</strong><span> - réaliser en HTML5/CSS3</span></p>
                             </div>
                         </div>
                     </div>
-                    <!--  -->
-                    <div class="row">
-                        <!-- 4 Super Heros -->
-                        <div class="col-md-4 box">
-                            <div class="card">
-                                <img
-                                    src="./img/realisations/siteHeros.PNG"
-                                    class="card-img-top"
-                                    alt="image du site web réaliser"
-                                />
-                                <div class="card-body">
-                                    <h5 class="card-title">Super Heros</h5>
-                                    <p class="card-text">
-                                        Site sur les super héros. Réaliser en
-                                        HTML5/CSS lors de ma formation.
-                                    </p>
-                                    <a
-                                        href=" https://nunofds.github.io/heros/"
-                                        target="_blank"
-                                        class="btn btn-warning"
-                                        >Voir le site
-                                        <span class="bi-arrow-bar-right"></span
-                                    ></a>
-                                </div>
+                    <!-- row2 -->
+                    <div class="row justify-content-around py-3">
+                        <!-- item1 row2 Snake game -->
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                            <div class="carte">
+                                <a class="cacher" href="https://nunofds.github.io/portfolio/Jeu%20Snake/Index.html" target="_blank"><i class="bi-plus"></i></a>
+                                <img class="img-fluid" src="./img/realisations/snakeGame.PNG" alt="image illustration du site">
+                                <p class="texte"><strong>Snake Game</strong><span> - réaliser en Javascript</span></p>
                             </div>
                         </div>
-                        <!-- 5 Burger Code -->
-                        <div class="col-md-4 box">
-                            <div class="card">
-                                <img
-                                    src=""
-                                    class="card-img-top"
-                                    alt="image du site web réaliser"
-                                />
-                                <div class="card-body">
-                                    <h5 class="card-title">Burger Code</h5>
-                                    <p class="card-text">
-                                        Site de restauration rapide. Réaliser en
-                                        PHP et SQL. Une interface administrateur
-                                        a été créé pour permettre la gestion du
-                                        site. <i>(bientôt disponible)</i>
-                                    </p>
-                                    <a href="#" class="btn btn-warning"
-                                        >Voir le site
-                                        <span class="bi-arrow-bar-right"></span
-                                    ></a>
-                                </div>
+                        <!-- item1 row2 meilleures actrices -->
+                        <div class="col-lg-4 col-sm-6 mb-4"> 
+                            <div class="carte">
+                                <a class="cacher" href="https://nunofds.github.io/sitewebActrices/" target="_blank"><i class="bi-plus"></i></a>
+                                <img class="img-fluid" src="./img/realisations/5actrices.PNG" alt="image illustration du site">
+                                <p class="texte"><strong>Meilleures actrices</strong><span> - réaliser en jQuery</span></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <!-- Education -->
-            <section id="education"></section>
+            <!-- section formation -->
+            <section id="formation">
+                <div class="container">
+                    <div class="heading text-center p-5">
+                        <hr>
+                        <h2 class="p-3">Formation</h2>
+                    </div>
+                    <!-- 2022 -->
+                    <div class="row formationWf3">
+                        <div class="col-md-4 text-center">
+                            <h3>2022</h3>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>Formation Développeur Web et mobile</p>
+                            <p>WEBFORCE3 Paris</p>
+                        </div>
+                         <div class="col-md-4 text-center">
+                            <button type="button" class="btn btn-warning" disabled><a href="#">En cours d'obtention</a></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- 2021 -->
+                    <div class="row formationPython">
+                        <div class="col-md-4 text-center">
+                            <h3>2021</h3>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>Formation online "Développeur Python"</p>
+                            <p>Udemy</p>
+                        </div>
+                         <div class="col-md-4 text-center">
+                            <button type="button" class="btn btn-warning"><a href="./docs/Certificat-pthon.pdf" target="_blank">Télécharger certificat</a></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- 2020 -->
+                    <div class="row formationDev">
+                        <div class="col-md-4 text-center">
+                            <h3>2020</h3>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>Formation online "Développeur Web"</p>
+                            <p>apprendre-a-coder.com</p>
+                        </div>
+                         <div class="col-md-4 text-center">
+                            <button type="button" class="btn btn-warning"><a href="./docs/Certificat-de-Reussite-FrenchMaker.io.pdf" target="_blank">Télécharger certificat</a></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- mon cv -->
+                    <div class="col-md-12 boutonCV">
+                        <button type="button" class="btn btn-info"><a href="./docs/CV_NunoFernandes_.pdf" target="_blank">Télécharger mon CV</a></button>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <!-- footer -->
-        <footer class="container" id="contact">
-            <div class="cv">
-                <a href="./docs/CV Fernandes_01.pdf" target="_blank"
-                    >Télécharger mon cv
-                    <span class="bi-file-earmark-text"></span
-                ></a>
-            </div>
+        <footer id="contact">
             <div class="container">
-                <div class="heading">
-                    <hr />
-                    <h2>Me contacter</h2>
+                <div class="heading text-center p-5 footerHeading">
+                    <hr>
+                    <h2 class="p-3">Me contacter</h2>
+                </div>
+                <div class="row contactBox">
+                    <div class="col-md-6">
+                        <div class="phone-email text-center">
+                            <div class="phone"><img src="./icons/call.png" alt="icône téléphone"> +33 7 71 80 29 21</div>
+                            <div class="email"><img src="./icons/arroba.png" alt="icône email"> fernandes.n.sa@outlook.fr</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="maps text-center">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35097.280671906985!2d2.3145739954163704!3d48.810060483727895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67174922f0d45%3A0x40b82c3688b3920!2s94250%20Gentilly!5e0!3m2!1sfr!2sfr!4v1643707591969!5m2!1sfr!2sfr" width="auto" height="auto" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <p>© 2022 Tous droits résérvés | NunoFernandes |</p>
-                    <p><a href="#">Mentions Légales</a></p>
-                </div>
-                <div class="col-md-4">
-                    <p>
-                        <span
-                            ><img
-                                src="./img/icons/telephone-call.png"
-                                alt="icône téléphone"
-                        /></span>
-                        +33 7 71 80 29 21
-                    </p>
-                    <p>
-                        <span
-                            ><img
-                                src="./img/icons/email.png"
-                                alt="icône téléphone"
-                        /></span>
-                        <a href="https://outlook.live.com/" target="_blank"
-                            >fernandes.n.sa@outlook.fr</a
-                        >
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21013.082154968237!2d2.3415316378644575!3d48.827020140239725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67174922f0d45%3A0x40b82c3688b3920!2s94250%20Gentilly!5e0!3m2!1sfr!2sfr!4v1642363087741!5m2!1sfr!2sfr"
-                        width="300"
-                        height="200"
-                        style="border: 0"
-                        allowfullscreen=""
-                        loading="lazy"
-                    ></iframe>
-                </div>
+            <hr>
+            <!-- social -->
+            <div class="social">
+                <a href="https://github.com/Nunofds" target="_blank" rel="noopener noreferrer"><img src="./icons/github.png" alt="icône girhub"></a>
+                <a href="https://www.linkedin.com/in/nuno-fernandes-69a6a4133/" target="_blank" rel="noopener noreferrer"><img src="./icons/linkedin.png" alt="icône linkedIn"></a>
+            </div>
+            <!-- aller cers accueil -->
+            <div class="versLeHaut">
+                <a href="#accueil"><i class="bi-chevron-double-up p-2"></i></a>
             </div>
         </footer>
 
-        <!--  -->
-        <!-- BOOTSTRAP JS LINK -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"
-        ></script>
-        <!-- SCRIPT JS -->
+        <!-- Bootstrap js link -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!-- cdn jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <!-- JS link -->
         <script src="./js/script.js"></script>
     </body>
 </html>

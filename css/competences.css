@@ -1,4 +1,4 @@
-/* SECTIONS langages/frameworks/outils  */
+/* ***** section Mes compétences ***** */
 main #competences {
     height: auto;
     padding: 60px 0;
@@ -20,13 +20,11 @@ main #competences {
 .outils div {
     margin: 40px;
     transform: rotate(-30deg) skew(25deg) translate(0, 0);
-    transform: rotateZ(0deg);
-    transition: 0.5s;
+    /* transform: rotateZ(0deg); */
     background-color: rgba(100, 100, 100, 0.2);
-    box-shadow: -15px 15px 15px rgba(255, 255, 255, 0.3);
+    box-shadow: -20px 15px 30px rgba(0, 81, 255, 0.5);
 }
 
-/*  */
 /* ::BEFORE */
 .langages div::before,
 .frameworks div::before,
@@ -37,11 +35,11 @@ main #competences {
     left: -10px;
     height: 100%;
     width: 10px;
-    background-color: rgb(10, 10, 10, 0.5);
+    /* background-color: rgb(10, 10, 10, 0.5); */
+    background-color: rgba(0, 89, 255, 0.2);
     transform: rotate(0deg) skewY(-45deg);
 }
 
-/*  */
 /* ::AFTER */
 .langages div::after,
 .frameworks div::after,
@@ -52,16 +50,7 @@ main #competences {
     left: -5px;
     height: 10px;
     width: 100%;
-    background-color: rgba(94, 86, 86, 0.5);
+    /* background-color: rgba(94, 86, 86, 0.5); */
+    background-color: rgba(0, 89, 255, 0.2);
     transform: rotate(0deg) skewX(-45deg);
 }
-
-/* 
-    :HOVER 
-*/
-/* .langages div:hover,
-.frameworks div:hover,
-.outils div:hover {
-    transform: scale(1.5);
-    transition: 1.5s;
-} */

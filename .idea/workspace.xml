@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="392aedda-85f5-458b-8b9e-512312deab7c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/css/competences.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/competences.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/CV Fernandes_01.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heros/Capture d’écran 2022-01-11 à 16.12.54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heros/Capturefooter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/heros/capture2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/idex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bitmoji.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/email.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/telephone-call.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/imgcool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/laptop-ge13dafce3_1280.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/light-bulbs-gf578fd3e0_1920.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-removebg-preview.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="24VC4iuWtPpKqmOMwuMH6Rj2eXX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="392aedda-85f5-458b-8b9e-512312deab7c" name="Changes" comment="" />
+      <created>1643706179537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643706179537</updated>
+    </task>
+    <servers />
+  </component>
+</project>
