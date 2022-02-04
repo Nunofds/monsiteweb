@@ -25,4 +25,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    #displayThanks {
+        font-size: 12px;
+    }
 }

@@ -50,6 +50,11 @@ footer {
 .social a img {
     width: 40px;
 }
+
+/* iframe google maps */
+.iframeMaps {
+    overflow: hidden;
+}
 /* chevron aller vers le haut */
 footer .versLeHaut {
     position: fixed;
