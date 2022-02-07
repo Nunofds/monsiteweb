@@ -70,6 +70,10 @@ header .mon-titre {
     align-items: center;
     flex-wrap: wrap;
 }
+header .mon-titre .textcontainer {
+    display: block;
+    width: 100%;
+}
 header .mon-titre h1 {
     width: 100%;
     font-size: 44px;
