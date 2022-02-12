@@ -28,6 +28,13 @@
     flex-wrap: wrap;
 }
 
+.boutonCV button {
+    width: 250px;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
     #displayThanks {
         font-size: 12px;
