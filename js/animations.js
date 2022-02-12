@@ -1,6 +1,6 @@
 function initparticles() {
     bubbles();
-    hearts();
+    // hearts();
     // lines();
     // confetti();
     // fire();
@@ -31,27 +31,27 @@ function bubbles() {
     });
 }
 
-function hearts() {
-    $.each($(".particletext.hearts"), function () {
-        var heartcount = ($(this).width() / 50) * 5;
-        for (var i = 0; i <= heartcount; i++) {
-            var size = $.rnd(60, 120) / 10;
-            $(this).append(
-                '<span class="particle" style="top:' +
-                    $.rnd(20, 80) +
-                    "%; left:" +
-                    $.rnd(0, 95) +
-                    "%;width:" +
-                    size +
-                    "px; height:" +
-                    size +
-                    "px;animation-delay: " +
-                    $.rnd(0, 30) / 10 +
-                    's;"></span>'
-            );
-        }
-    });
-}
+// function hearts() {
+//     $.each($(".particletext.hearts"), function () {
+//         var heartcount = ($(this).width() / 50) * 5;
+//         for (var i = 0; i <= heartcount; i++) {
+//             var size = $.rnd(60, 120) / 10;
+//             $(this).append(
+//                 '<span class="particle" style="top:' +
+//                     $.rnd(20, 80) +
+//                     "%; left:" +
+//                     $.rnd(0, 95) +
+//                     "%;width:" +
+//                     size +
+//                     "px; height:" +
+//                     size +
+//                     "px;animation-delay: " +
+//                     $.rnd(0, 30) / 10 +
+//                     's;"></span>'
+//             );
+//         }
+//     });
+// }
 
 // function lines() {
 //     $.each($(".particletext.lines"), function () {
@@ -147,3 +147,13 @@ jQuery.rnd = function (m, n) {
 };
 
 initparticles();
+
+// backgroundColor
+let longuer = document.querySelectorAll(".particle");
+for (let i = 0; i < longuer.length; i++) {
+    let couleur1 = Math.floor(Math.random() * 256);
+    let couleur2 = Math.floor(Math.random() * 256);
+    let couleur3 = Math.floor(Math.random() * 256);
+    let rgb = `rgb(${couleur1}, ${couleur2},${couleur3}, .3)`;
+    longuer[i].style.backgroundColor = rgb;
+}
