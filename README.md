@@ -1,2 +1,3 @@
 # monsiteweb
-Bienvenue sur mon site web. Je suis à votre disposition pour répondre à tout type de projets de création de sites internet.
+Bienvenue sur mon site web.
+Ce projet presente ma page web, en mettent en evidence les compétences, les études, le portfolio ainsi que les coordonées de contact.
